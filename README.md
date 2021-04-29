@@ -1,6 +1,6 @@
 # COVID-19-CXR-CT-Classification
 
-This is the source code of the  paper ''Classification of COVID-19 Chest X-Ray and CT Images using a Type of Dynamic CNN Modification Method.'' (https://doi.org/10.1016/j.compbiomed.2021.104425)
+This is the source code of the  paper ''Classification of COVID-19 Chest X-Ray and CT Images using a Type of Dynamic CNN Modification Method''. (https://doi.org/10.1016/j.compbiomed.2021.104425)
 
 ## Data sources
 Four classes of lung diseases are considered in this paper: COVID-19, bacterial pneumonia, viral pneumonia (except for COVID-19) and tuberculosis. In addition, healthy cases are included as the fifth class. The dataset used in this paper is the combination across four publicly available data sources  (DS):
