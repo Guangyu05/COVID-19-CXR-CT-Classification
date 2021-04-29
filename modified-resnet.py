@@ -1,33 +1,22 @@
-from mxnet import nd
+from mxnet import nd, image
 from mxnet.gluon import nn
 import d2lzh as d2l
 import mxnet as mx
 from mxnet import gluon, init
 from mxnet.gluon import loss as gloss, nn
-from mxnet import autograd, nd
-from mxnet import nd
+from mxnet import autograd
 import time
 import matplotlib.pyplot as plt
 import numpy as np
-import os
 from mxnet.io import ImageRecordIter
 import os, time, shutil
-
-from mxnet import gluon, image, init, nd
 from mxnet import autograd as ag
 from mxnet.gluon import nn
 from mxnet.gluon.data.vision import transforms
 from gluoncv.utils import makedirs
 from gluoncv.model_zoo import get_model
-
-
-from mxnet import autograd, gluon, image, init, nd
 from mxnet.gluon import data as gdata, loss as gloss, utils as gutils
 import sys
-
-import os
-from mxnet import nd
-from mxnet.io import ImageRecordIter
 
 rec_path = os.path.expanduser('/rds/project/t2_vol4/rds-t2-cspp011/CT/rec/')
 
@@ -186,11 +175,11 @@ class modifiedMobileNet(nn.HybridBlock):
            self.part5 = finetune_net.features[7:]
            self.part6 = nn.Dense(classes)
            self.flatten = nn.Flatten()
-           self.convblk1 = conv_block(32) #16
-           self.convblk2 = conv_block(32) #16
-           self.convblk3 = conv_block(32) #16
-           self.convblk4 = conv_block(32) #16
-           self.convblk5 = conv_block(32) #16
+           self.convblk1 = conv_block(32) 
+           self.convblk2 = conv_block(32) 
+           self.convblk3 = conv_block(32) 
+           self.convblk4 = conv_block(32) 
+           self.convblk5 = conv_block(32) 
            self.w = conv_block(5)
            
 
