@@ -10,8 +10,9 @@ Four classes of lung diseases are considered in this paper: COVID-19, bacterial 
 - The bacterial and viral pneumonia CXR images are from https://www.kaggle.com/muhammadmasdar/pneumonia-virus-vs-pneumonia-bacteria/data (DS 7).
 - The CXR images of normal controls are from https://www.kaggle.com/tawsifurrahman/covid19-radiography-database (DS 4).
 
+[1]  Jaeger, Stefan, et al. "Two public chest X-ray datasets for computer-aided screening of pulmonary diseases." Quantitative imaging in medicine and surgery 4.6 (2014): 475.
+
 ## Scripts
 The modified MobileNet and modified ResNet proposed in this paper respectively correspond to the files modified_mobilenet.ipynb and  modified-resnet.py. The code of the  robustness test is Robustness.ipynb. Files begin with ''model_selection...'' are models  used for comparative purpose illustrated in  Section 4 of the paper.
 
 
-[1]  Jaeger, Stefan, et al. "Two public chest X-ray datasets for computer-aided screening of pulmonary diseases." Quantitative imaging in medicine and surgery 4.6 (2014): 475.
